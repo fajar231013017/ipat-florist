@@ -339,9 +339,11 @@ body {
   display: flex;
 }
 
-.about .row .about-img {
-  flex: 1 1 45rem;
+/* Flexbox untuk tampilan gambar */
+.about .row .images {
+  display: flex;
 }
+
 
 /* .about .row .about-img img {
   width: 100%;
@@ -378,12 +380,11 @@ body {
 .products p,
 .contact p {
   text-align: center;
-  max-width: 30rem;
+  max-width: 40rem;
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
 }
-
 .menu .row {
   display: flex;
   flex-wrap: wrap;
